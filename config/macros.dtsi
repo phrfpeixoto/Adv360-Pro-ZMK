@@ -1,3 +1,15 @@
+macro_ipdb: macro_ipdb{
+compatible = "zmk,behavior-macro";
+label = "macro_ipdb";
+#binding-cells = <0>;
+bindings = <&kp I>, <&kp M>, <&kp P>, <&kp O>, <&kp R>, <&kp T>, <&kp SPACE>, <&kp I>, <&kp P>, <&kp D>, <&kp B>, <&kp SEMICOLON>, <&kp SPACE>, <&kp I>, <&kp P>, <&kp D>, <&kp B>, <&kp DOT>, <&kp S>, <&kp E>, <&kp T>, <&kp UNDERSCORE>, <&kp T>, <&kp R>, <&kp A>, <&kp C>, <&kp E>, <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
+};
+macro_macro_vbrackets: macro_macro_vbrackets{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_vbrackets";
+#binding-cells = <0>;
+bindings = <&kp LESS_THAN>, <&kp GT>, <&kp LEFT_ARROW>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
